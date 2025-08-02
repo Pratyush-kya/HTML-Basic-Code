@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me Page</title>
+</head>
+<body>
+    <form action="/pratyush" method="post" style="background-color: lightblue; padding: 100px; border-radius: 30px; width: 300px; margin: auto; margin-top: 50px;">
+    <div style="text-align: center;">
+        <h1>Contact Me</h1>
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Enter Your Name" required><br><br>
+        <label for="email">Email:</label>
+        <input type="text" id="email" placeholder="Enter Your Email" required><br><br>
+        <label for="number">Number:</label>
+        <input type="text" id="number" placeholder="Enter The Number" required><br><br>
+        <label for="Resume">Resume</label>
+        <input type="file" id="Resume" name="Resume" accept=".pdf,.dox,.doxx,.txt"><br><br>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="Gender" value="male">
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="Gender" value="female">
+        <label for="other">Other</label>
+        <input type="radio" id="other" name="Gender" value="other"><br><br>
+        <label for="course">Which Subject You Want To Learn:</label>
+        <select name="course" id="course">
+        <option value="c">C</option>
+        <option value="c++">C++</option>
+        <option value="python">Python</option>
+        </select><br><br>
+        <label for="note">note</label>
+        <input type="checkbox" id="note" name="study" value="note">
+        <label for="cheat sheet">Cheat Sheet</label>
+        <input type="checkbox" id="cheat sheet" name="study" value="cheat sheet">
+        <label for="interview questions">Interview Questions</label>
+        <input type="checkbox" id="interview questions" name="study" value="interview questions"><br><br>
+        <input type="submit" name="user name" value="Submit">
+    </div>
+    </form>
+</body>
+</html>

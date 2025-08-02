@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Tag</title>
+</head>
+<body>
+    <!--Input Tag-->
+    <form action="/contact-me" method="post">
+        <div style="text-align: center;" >
+            <h1>Login Form</h1>
+        <label for="Enter Your Name">UserName: </label>
+        <!--Lable Tag-->
+        <input type="text" placeholder="Enter Your Name" id="Enter Your Name" required="true"><br><br>
+        <!--name give the identity for the data to collect , it should be unique and value is the defult value. -->
+        <label for="User_Password">Password: </label>
+        <!--It is not an simple text , it add a text description , for attribute is defined here , it is redability and useability -->
+        <input type="password" placeholder="Enter Your Password" id="User_Password" required="true"><br>&nbsp;<br>
+        <!--name give the identity for the data to collect , it should be unique and value is the defult value. -->
+        <label for=" Today's Date">Date: </label>
+        <!--Input Type Date.-->
+        <input type="date" id="Today's Date" required="true"><br><br>
+        <label for="10 Marksheet">File: </label>
+        <!--Input Type File.-->
+        <input type="file" id="10 Marksheet" value="Verified" required="true"><br><br>
+        <label for="Color">Color: </label>
+        <!--Input Type Color.-->
+        <input type="color" id="Color" value="Red" required="true"><br><br>
+        <label for="Price Range">Range: </label>
+        <!--Input Type Range.-->
+        <input type="range" id="Price Range" value="Great" required="true"><br><br>
+        <label for="Poke Me">Poke Me: </label>
+        <!--It Is A Type Of Input Tag-->
+        <input type="button" id="Poke Me" value="Poked"><br><br>
+        
+                   <input type="submit" name="User Name" value="Login">
+                   <!--It is also called as action attribute.-->       
+         </div>
+    </form>
+</body>
+</html>
